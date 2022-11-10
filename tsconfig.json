@@ -1,6 +1,7 @@
 {
   "extends": "@tsconfig/node-lts/tsconfig.json",
   "compilerOptions": {
+    "module": "ES2020",
     "lib": ["ESNext"],
     "outDir": "dist"
   },
